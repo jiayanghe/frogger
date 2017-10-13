@@ -66,7 +66,7 @@ Player.prototype.handleInput = function(key) {
         case 'up': 
             if (this.y === 55) {
                 $('.modalWin').css('display', 'inline-block');//show win modal.
-                player.reset();    
+                this.reset();    
             }
             else {
                 this.y -= 85;
@@ -92,7 +92,10 @@ Player.prototype.handleInput = function(key) {
 
 
 //create new enemies and player.
-const allEnemies = [new Enemy(), new Enemy(), new Enemy(), new Enemy()];
+const allEnemies = [];
+for(var i = 0; i < 4; i++) {
+  allEnemies.push(new Enemy());
+};
 let player= new Player();
 
 

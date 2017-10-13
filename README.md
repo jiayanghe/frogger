@@ -1,5 +1,8 @@
 #frontend-nanodegree-arcade-game
 
+##How to open the game
+1. Open the folder where all the game files are located.
+2. Open index.html in a web browser.
 
 ##How to play the game
 1. Use the for arrow keys on the key board to control the character to move up, down, left or right.
