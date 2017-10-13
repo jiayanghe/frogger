@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <title>Effective JavaScript: Frogger</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
+	<div class='modalWin'>
+	    <div class='board'>
+	        <span class='finalscore'>You Won!</span><br>
+	        <button class='again'>Play Again</button>
+	    </div>
+	</div>
+	<div class='modalLose'>
+	    <div class='board'>
+	        <span class='finalscore'>You Got Hit!</span><br>
+	        <button class='again'>Play Again</button>
+	    </div>
+	</div>
     <script src="js/resources.js"></script>
     <script src="js/app.js"></script>
     <script src="js/engine.js"></script>
